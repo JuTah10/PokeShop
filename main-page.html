@@ -2,9 +2,127 @@
 <html>
     <head>
         <title>PokeShop</title>
+        <!-- This code is needed for responsive design to work.
+      (Responsive design = make the website look good on
+      smaller screen sizes like a phone or a tablet). -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../styles/general.css" rel="stylesheet">
+        <link href="../styles/nav.css" rel="stylesheet">
+        <link href="../styles/main-page.css" rel="stylesheet">
     </head>
+    
 
     <body>
-        
+        <nav>
+            <div class="left-nav">
+                <a href="main-page.html"><img class="pokeLogo"src="../image/pokeshop-logo.png"></a>
+            </div>
+
+            <div class="middle-nav">
+                <input class="search-bar"type="text" placeholder="Search">
+                <button class="search-button"><img class="search-icon" src="../image/search-icon.png"></button>
+            </div>
+
+            <div class="right-nav">
+                <a class="cart-link" href = "cart.html">
+                    <img class="cart-icon" src="../image/cart-icon.png">
+                    <div class="cart-quantity">3</div>
+                    <div class="cart-text">Cart</div>
+                </a>
+            </div>
+
+        </nav>
+
+        <main>
+            <div class="product-grid">
+                <div class="product-container">
+                    <div class="image-container">
+                        <img class="image" src="../image/pikachu.webp">
+                    </div>
+
+                    <div class="product-name limit-text-to-2-lines">
+                        Pokemon Plush Doll Oversize Cute Anime Pikachu
+                    </div>
+
+                    <div class="product-rating-container">
+                        <img class="product-rating-stars" src="../image/rating-45.png">
+                        <div class="product-rating-count">87</div>
+                    </div>
+
+                    <div class="product-price">$10.90</div>
+
+                    <div class="product-quantity-container">
+                        <select>
+                            <option selected value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+
+                    <div class="empty-space"></div>
+
+                    <div class="added-to-cart">
+                        <img class="added-to-cart-image"src="../image/checkmark.png">
+                        Added
+                    </div>
+
+                    <button class="add-to-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+
+                <div class="product-container">
+                    <div class="image-container">
+                        <img class="image" src="../image/fox-poke.jpg">
+                    </div>
+
+                    <div class="product-name limit-text-to-2-lines">
+                        Flareon Poke Plush
+                    </div>
+
+                    <div class="product-rating-container">
+                        <img class="product-rating-stars" src="../image/rating-40.png">
+                        <div class="product-rating-count">127</div>
+                    </div>
+
+                    <div class="product-price">$20.95</div>
+
+                    <div class="product-quantity-container">
+                        <select>
+                            <option selected value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+
+                    <div class="empty-space"></div>
+
+                    <div class="added-to-cart">
+                        <img src="../image/checkmark.png">
+                        Added
+                    </div>
+
+                    <button class="add-to-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+
+               
+            </div>
+        </main>
     </body>
 </html>
