@@ -74,12 +74,12 @@ nav{
     font-weight: bold;
     position:absolute;
     top: -5px;
-    left: 26px;
+    left: 24px;
+    right:24px;
     width:26px;
 }
 .cart-text{
     margin-top: 12px;
     font-size: 15px;
-    font-weight: 700;
-    
+    font-weight: 700; 
 }

@@ -1,0 +1,4 @@
+what might have left:
+- adding more products
+- add navigation with different type of products
+- add function to search bar
