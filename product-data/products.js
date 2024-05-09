@@ -1,6 +1,6 @@
 export const products = [{
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-    image:  "../image/pikachu.webp",
+    image:  "./image/pikachu.webp",
     name:   "Pokemon Plush Doll Oversize Cute Anime Pikachu",
     rating: {
         stars:  4.5,
@@ -10,7 +10,7 @@ export const products = [{
 }, 
 {
     id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
-    image:  "../image/fox-poke.jpg",
+    image:  "./image/fox-poke.jpg",
     name:   "Flareon Poke Plush",
     rating: {
         stars:  4,
@@ -20,7 +20,7 @@ export const products = [{
 },
 {
     id: "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
-    image:  "../image/mew-poke.png",
+    image:  "./image/mew-poke.png",
     name:   "Mew Plush Pokemon fit",
     rating: {
         stars:  4.5,
@@ -30,7 +30,7 @@ export const products = [{
 },
 {
     id: "83d4ca15-0f35-48f5-b7a3-1ea210004f2",
-    image:  "../image/whalePoke.png",
+    image:  "./image/whalePoke.png",
     name:   "Cartoon Pokemon Plush Stuffed Toy",
     rating: {
         stars:  4.5,

@@ -14,7 +14,7 @@ products.forEach((product)=>{
                 </div>
 
                 <div class="product-rating-container">
-                    <img class="product-rating-stars" src="../image/rating-${product.rating.stars * 10}.png">
+                    <img class="product-rating-stars" src="./image/rating-${product.rating.stars * 10}.png">
                     <div class="product-rating-count">${product.rating.count}</div>
                 </div>
 
@@ -38,7 +38,7 @@ products.forEach((product)=>{
                 <div class="empty-space"></div>
 
                 <div class="added-to-cart added-to-cart-${product.id}">
-                    <img class="added-to-cart-image"src="../image/checkmark.png">
+                    <img class="added-to-cart-image"src="./image/checkmark.png">
                     Added
                 </div>
 
